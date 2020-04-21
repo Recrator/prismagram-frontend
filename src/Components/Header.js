@@ -5,7 +5,7 @@ import { gql } from "apollo-boost";
 import Input from "./Input";
 import useInput from "../Hooks/useInput";
 import { Compass, HeartEmpty, User, Logo } from "./Icons";
-import { useQuery } from "react-apollo-hooks";
+import { useQuery } from "@apollo/react-hooks";
 
 const Header = styled.header`
   width: 100%;
